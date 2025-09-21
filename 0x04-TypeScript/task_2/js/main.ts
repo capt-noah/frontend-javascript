@@ -1,0 +1,8 @@
+interface DirectorInterface{
+
+}
+
+
+function createEmployee() {
+    
+}
