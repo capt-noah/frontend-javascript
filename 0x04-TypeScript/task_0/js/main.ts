@@ -32,9 +32,9 @@ studentsLists.forEach(student => {
     nameCol.textContent = student.firstName;
     locationCol.textContent = student.location;
 
-    newRow.append(nameCol)
-    newRow.append(locationCol)
-    tableBody.append(newRow)
+    newRow.appendChild(nameCol)
+    newRow.appendChild(locationCol)
+    tableBody.appendChild(newRow)
 })
 
-table.append(tableBody)
+table.appendChild(tableBody)
